@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  background-color: forestgreen;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+
+.site_title {
+  font-size: 2rem;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display:flex;
+  gap: 1rem;
+}
+
+.nav a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+}
+
+.nav li.active {
+  background-color: #f08000;
+}
+
+.nav li:hover {
+  background-color: limegreen;
+}
+
+.formContact {
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 400px;
+   width: 100%;
+   padding-bottom: 2rem;
+  }
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+
+}
+.socialMedia {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  background-color: forestgreen;
+  color: white;
+  gap: 2rem;
+  padding: 0 1rem;
+}
+.linkMe {
+  text-decoration: none;
+  color: inherit;
+}
+.linkMe:hover {
+  color: #f08000;
+}
+
+.spalshPage {
+  display:flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 100%;
+  margin-top: 2rem;
+}
+.codeImg {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.video-js {
+  width: 700px;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+
+
+
+
